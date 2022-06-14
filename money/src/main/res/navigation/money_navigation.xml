@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/money_navigation"
+    app:startDestination="@id/incomeFragment">
+
+    <fragment
+        android:id="@+id/incomeFragment"
+        android:name="com.tuyp.managementapp.money.IncomeFragment"
+        android:label="fragment_income"
+        tools:layout="@layout/fragment_income" />
+    <fragment
+        android:id="@+id/expenseFragment"
+        android:name="com.tuyp.managementapp.money.ExpenseFragment"
+        android:label="fragment_expense"
+        tools:layout="@layout/fragment_expense" />
+</navigation>
